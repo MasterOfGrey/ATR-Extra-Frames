@@ -28,14 +28,14 @@ I am happy to add other unique frames if people want them.
 * No known incompatibilities - it'll just do nothing without ATR.
 
 ## Questions
-[b]**Will this work with other older Android Tiers mods?**[/b]
-[i]*No, ATR uses specific ATR tagged versions of things, which it calls upon to work.*[/i]
+**Will this work with other older Android Tiers mods?**
+*No, ATR uses specific ATR tagged versions of things, which it calls upon to work.*
 
-[b]**Can this be patched to work with other versions of Android Tiers?**[/b]
-[i]*If you make a patch, I'll happily add it in. I have no intention of patching it myself though.*[/i]
+**Can this be patched to work with other versions of Android Tiers?**
+*If you make a patch, I'll happily add it in. I have no intention of patching it myself though.*
 
-[b]**Will you add the other localisations for other languages like ATR has?**[/b]
-[i]*As above, if you would like to provide a localisation, I'll happily add it in.*[/i]
+**Will you add the other localisations for other languages like ATR has?**
+*As above, if you would like to provide a localisation, I'll happily add it in.*
 
 ## Contributors
 * Russian language translation provided by Tkhakiro
@@ -52,7 +52,7 @@ OG Peeps:
 * ARandomKiwi - Creator of the wonderous and incredible AT++ content and maintainer
 
 ATR Team:
-* RWDevathon
+* RWDevathon - The great balancer
 * FG_Remastered - PR overlord, diplomat, integral supporter
 * lazycooken - Jumpstarter and eager supporter
 * Winterbloom - Graphic and xml supporter
