@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Alignment -->
+
+  <ATR_Install_AlignmentFrame.label>Установить отколиброванный каркас</ATR_Install_AlignmentFrame.label>
+  <ATR_Install_AlignmentFrame.description>Заменяет каркас шасси этого агрегата на отколиброванный каркас, что значительно повысит полезность в качестве средства для транспортировки грузов.</ATR_Install_AlignmentFrame.description>
+
+
+</LanguageData>
