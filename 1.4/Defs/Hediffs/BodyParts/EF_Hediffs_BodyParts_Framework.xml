@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+<!-- Industrial Frames -->
     <!-- Alignment -->
     <HediffDef ParentName="ATR_AddedBodyPartFrameworkBase">
         <defName>ATR_AlignmentFrame</defName>
@@ -29,18 +30,7 @@
             <ComponentSpacer>2</ComponentSpacer>
         </costList>
         <recipeMaker>
-            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-            <workSkill>Crafting</workSkill>
-            <effectWorking>Smith</effectWorking>
-            <soundWorking>Recipe_Smith</soundWorking>
-            <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
             <researchPrerequisite>ATR_MechanicalFrameworks</researchPrerequisite>
-            <recipeUsers>
-                <li>ATR_MechPartWorkbench</li>
-            </recipeUsers>
         </recipeMaker>
     </ThingDef>
 	
@@ -64,6 +54,125 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<addsHediff>ATR_AlignmentFrame</addsHediff>
+	</RecipeDef>
+
+<!-- Advanced Industrial Frames -->
+    <!-- Advanced Hydraulic -->
+    <HediffDef ParentName="ATR_AddedBodyPartFrameworkBase">
+        <defName>ATR_AdvancedHydraulicFrame</defName>
+        <label>Advanced Hydraulic Frame</label>
+        <description>An upgrade to the hydraulic chassis framework using exceedingly high quality components to not only maximize manageable weight and improve efficiency at basic tasks, but also to use regenerative braking inverters to assist with battery longevity. The scale of mechanical assistance provides minimal benefits that assist work capabilities across the board.</description>
+        <stages>
+            <li>
+                <statOffsets>
+					<CarryingCapacity>120</CarryingCapacity>
+                    <GeneralLaborSpeed>1.4</GeneralLaborSpeed>
+                    <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+                    <MoveSpeed>0.1</MoveSpeed>
+                    <hungerRateFactor>0.8</hungerRateFactor>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <ThingDef ParentName="ATR_BodyPartFrameworkBase">
+        <defName>ATR_AdvancedHydraulicFrame</defName>
+        <label>Advanced Hydraulic Frame</label>
+        <description>An upgrade to the hydraulic chassis framework using exceedingly high quality components to not only maximize manageable weight and improve efficiency at basic tasks, but also to use regenerative braking inverters to assist with battery longevity. The scale of mechanical assistance provides minimal benefits to work capabilities across the board.</description>
+        <statBases>
+            <MarketValue>2000</MarketValue>
+        </statBases>
+        <costList>
+            <Steel>40</Steel>
+            <Plasteel>100</Plasteel>
+            <ComponentSpacer>6</ComponentSpacer>
+        </costList>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>12</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>ATR_AdvancedIndustrialFrames</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <RecipeDef ParentName="ATR_SurgeryFramework">
+		<defName>ATR_Install_AdvancedHydraulicFrame</defName>
+		<label>Install Advanced Hydraulic Frame</label>
+		<description>Replaces the chassis frame of this unit with an advanced hydraulic frame, greatly enhancing weight capacity, general labor efficiency, and reducing battery drain.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATR_AdvancedHydraulicFrame</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ATR_AdvancedHydraulicFrame</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>ATR_AdvancedHydraulicFrame</addsHediff>
+	</RecipeDef>
+
+    <!-- Advanced Alignment -->
+    <HediffDef ParentName="ATR_AddedBodyPartFrameworkBase">
+        <defName>ATR_AdvancedAlignmentFrame</defName>
+        <label>Advanced Alignment Frame</label>
+	    <description>An upgrade to the alignment chassis framework, this frame aligns the components associated with the primary motor function elements of a creature and includes regenerative braking inverters to assist with battery longevity. The regenerative bonuses to battery life make it advantageous for any mechanical involved in significant travel.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <CarryingCapacity>150</CarryingCapacity>
+                    <MoveSpeed>1.8</MoveSpeed>
+                    <hungerRateFactor>0.8</hungerRateFactor>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <ThingDef ParentName="ATR_BodyPartFrameworkBase">
+        <defName>ATR_AdvancedAlignmentFrame</defName>
+        <label>Advanced Alignment Frame</label>
+        <description>An upgrade to the alignment chassis framework, this frame aligns the components associated with the primary motor function elements of a creature and includes regenerative braking inverters to assist with battery longevity. The regenerative bonuses to battery life make it advantageous for any mechanical involved in significant travel.</description>
+        <statBases>
+            <MarketValue>900</MarketValue>
+        </statBases>
+        <costList>
+            <Steel>40</Steel>
+            <Plasteel>100</Plasteel>
+            <ComponentSpacer>4</ComponentSpacer>
+        </costList>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>12</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>ATR_AdvancedIndustrialFrames</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+	
+    <RecipeDef ParentName="ATR_SurgeryFramework">
+		<defName>ATR_Install_AdvancedAlignmentFrame</defName>
+		<label>Install Advanced Alignment Frame</label>
+		<description>Replaces the chassis frame of this unit with an advanced alignment frame, greatly enhancing the unit's endurance and carrying utility.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATR_AdvancedAlignmentFrame</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ATR_AdvancedAlignmentFrame</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>ATR_AdvancedAlignmentFrame</addsHediff>
 	</RecipeDef>
 
 </Defs>
