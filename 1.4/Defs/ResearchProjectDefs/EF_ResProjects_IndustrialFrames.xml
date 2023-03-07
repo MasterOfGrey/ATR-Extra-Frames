@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchProjectDef>
+        <defName>ATR_MilitaryFrameworks</defName>
+        <label>Military frameworks</label>
+        <tab>ATR_MechResearch</tab>
+        <description>Application of advanced ingredients, such as luciferium, to otherwise simple combat-improving framework enhancements allows for truly superior outcomes to be achieved in military applications.</description>
+        <baseCost>1200</baseCost>
+        <techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>ATR_MechanicalFrameworks</li>
+			<li>ATR_MechanicalStimulators</li>
+		</prerequisites>
+		<researchViewX>5</researchViewX>
+		<researchViewY>2.3</researchViewY>
+    </ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Adjust ATR Defs for Extra Frames -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Android Tiers Reforged</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			<!-- Fix the Frames that were made to be complete nonsense. -->
+				<!-- ATR_HydraulicFrame -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName = "ATR_HydraulicFrame"]/stages/li/statOffsets</xpath>
+					<value><statOffsets>
+						<CarryingCapacity>80</CarryingCapacity>
+						<GeneralLaborSpeed>1</GeneralLaborSpeed>
+					</statOffsets></value></li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName = "ATR_HydraulicFrame"]/stages/li/statFactors/CarryingCapacity</xpath></li>
+				<!-- ATR_RefinedFrame -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName = "ATR_RefinedFrame"]/stages/li/statOffsets</xpath>
+					<value><statOffsets>
+						<PawnBeauty>2</PawnBeauty>
+						<SocialImpact>0.5</SocialImpact>
+					</statOffsets></value></li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName = "ATR_RefinedFrame"]/stages/li/statFactors/SocialImpact</xpath></li>
+				<!-- ATR_MobilityFrame -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName = "ATR_MobilityFrame"]/stages/li/statOffsets</xpath>
+					<value><statOffsets>
+						<MoveSpeed>1.5</MoveSpeed>
+						<MeleeDodgeChance>10</MeleeDodgeChance>
+					</statOffsets></value></li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/HediffDef[defName = "ATR_MobilityFrame"]/stages/li/statFactors/MoveSpeed</xpath></li>
+			</operations>
+		</match>
+	</Operation>
+    
+</Patch>

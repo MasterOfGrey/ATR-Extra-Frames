@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>Extra Frames - Android Tiers</name>
+    <name>ATR Frames Reforged - Android Tiers</name>
     <description>V1.0
     This mod adds an additional frame (more in the future) to be used with the Android Tiers mod.
     
@@ -26,6 +26,7 @@
     </modDependencies>
     <loadAfter>
         <li>Killathon.AndroidTiersReforged</li><!-- Dependency -->
+		<li>MasterOfGrey.IndustrialAutomatonsATR</li><!-- Designed load order. -->
 		<li>Ludeon.RimWorld</li><!-- Just making extra sure... -->
 		<li>Ludeon.RimWorld.Royalty</li><!-- Just making extra sure... -->
 		<li>Ludeon.RimWorld.Ideology</li><!-- Just making extra sure... -->

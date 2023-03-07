@@ -46,6 +46,12 @@
             <ATR_MechAntifreeze>50</ATR_MechAntifreeze>
             <Luciferium>1</Luciferium>
         </costList>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>12</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>ATR_MechanicalFrameworks</researchPrerequisite>
+        </recipeMaker>
     </ThingDef>
 
     <RecipeDef ParentName="ATR_SurgeryFramework">
