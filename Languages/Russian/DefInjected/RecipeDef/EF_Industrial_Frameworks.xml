@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Alignment -->
+
+  <ATR_Install_AlignmentFrame.label>Установить отколиброванный каркас</ATR_Install_AlignmentFrame.label>
+  <ATR_Install_AlignmentFrame.description>Замена каркаса шасси этого агрегата на отколиброванный каркас, что значительно повысит полезность в качестве средства для транспортировки грузов.</ATR_Install_AlignmentFrame.description>
+
+
+  <!-- Advanced Hydraulic -->
+
+  <ATR_Install_AdvancedHydraulicFrame.label>Install Advanced Hydraulic Frame</ATR_Install_AdvancedHydraulicFrame.label>
+  <ATR_Install_AdvancedHydraulicFrame.description>Replaces the chassis frame of this unit with an advanced hydraulic frame, greatly enhancing weight capacity, general labor efficiency, and reducing battery drain.</ATR_Install_AdvancedHydraulicFrame.description>
+
+
+  <!-- Advanced Alignment -->
+
+  <ATR_Install_AdvancedAlignmentFrame.label>Install Advanced Alignment Frame</ATR_Install_AdvancedAlignmentFrame.label>
+  <ATR_Install_AdvancedAlignmentFrame.description>Replaces the chassis frame of this unit with an advanced alignment frame, greatly enhancing the unit's endurance and carrying utility.</ATR_Install_AdvancedAlignmentFrame.description>
+
+
+</LanguageData>
