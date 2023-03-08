@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <name>ATR Frames Reforged - Android Tiers</name>
-    <description>V1.0
-    This mod adds an additional frame (more in the future) to be used with the Android Tiers mod.
-    
-    Alignment Frame:
-    Originally designed for the M.U.F.F. unit, but now seeing much greater use with the superior TORT, this frame aligns the components associated with the primary motor function elements of a creature - that of carrying "itself" (and its essentials) from A to B.
-    - Carrying Capacity +90
-    - Movement Speed +1.6
-	
-	Happy to add other unique frames if people want them.</description>
+    <description>V1.1
+This mod reworks a few existing frames for engineering consistency, tweaks the tech tree and unlock points, and adds a variety of extras.
+
+Altered Frames:
+- Hydraulic (fixed carrying capacity bonus due to limitations of hydraulic actuators)
+- Refined (increased pawn beauty and flat social impact buff from looking nice)
+- Mobility (fixed movement speed bonus, again due to actual actuator functioning)
+
+Added Frames:
+- Alignment Frame (hauling frame ideal for trainable mechanical animals)
+- Thermal Pumped Frame (combat oriented upgrade to the Guardian Frame)
+- Advanced Alignment Frame (improved from above but spacer tech and much more expensive)
+- Advanced Hydraulic Frame (as above; same scope of improvements and tech/cost changes)
+
+I am happy to add other unique frames if people want them.</description>
 	<author>MasterOfGrey</author>
 	<supportedVersions>
 		<li>1.4</li>
