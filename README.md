@@ -5,22 +5,30 @@
 	“This content is a submod intended to expand upon the Android Tiers Reforged mod which is the excellent work of RWDevathon; the latest keeper of the Android Tiers mod lineage for Rimworld version 1.4 (and 1.3 legacy support).”
 </p>
 
-# ATR-Extra-Frames
+# ATR-Extra-Frames (Frames Reforged)
 Designed for Rimworld 1.4
 
 The main ATR maintains the noble and wise goal of balancing content and choice with gameplay experience.
 Where there is room for more niche items not suitable to the design philosophy of the core mod, this mod is part of a set intended to enable those options for determined players.
 
 ## Features
-This mod adds one additional mechanical frame (more in the future) to be used with the Android Tiers Reforged mod.
+This mod reworks a few existing frames for engineering consistency, tweaks the tech tree and unlock points, and adds a variety of extras.
 
-### Alignment Frame:
-> Originally designed for the M.U.F.F. unit, but now seeing much greater use with the superior TORT, this frame aligns the components associated with the primary motor function elements of a creature - that of carrying "itself" (and its essentials) from A to B.
-##### Stats:
-* Carrying Capacity +90
-* Movement Speed +1.6
+### Altered Frames:
+* Hydraulic (fixed carrying capacity bonus due to limitations of hydraulic actuators)
+* Refined (increased pawn beauty and flat social impact buff from looking nice)
+* Mobility (fixed movement speed bonus, again due to actual actuator functioning)
+
+### Added Frames:
+* Alignment Frame (hauling frame ideal for trainable mechanical animals)
+* Thermal Pumped Frame (combat oriented upgrade to the Guardian Frame)
+* Advanced Alignment Frame (improved from above but spacer tech and much more expensive)
+* Advanced Hydraulic Frame (as above; same scope of improvements and tech/cost changes)
 
 I am happy to add other unique frames if people want them.
+
+## Recommended:
+* Works best with ATR Industrial Automatons!
 
 ## Compatibility:
 * Requires Android Tiers Reforged
