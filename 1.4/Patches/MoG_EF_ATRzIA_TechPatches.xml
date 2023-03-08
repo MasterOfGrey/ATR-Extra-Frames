@@ -69,16 +69,6 @@
 								<researchViewY>0.90</researchViewY>
 							</ResearchProjectDef>
 						</value></li>
-					<!-- Move default frames to correct unlock projects. -->
-					<li Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[defName = "ATR_RefinedFrame"]</xpath>
-						<value><recipeMaker><researchPrerequisite>ATR_MechanicalFrameworks</researchPrerequisite></recipeMaker></value></li>
-					<li Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[defName = "ATR_MobilityFrame"]</xpath>
-						<value><recipeMaker><researchPrerequisite>ATR_MechanicalFrameworks</researchPrerequisite></recipeMaker></value></li>
-					<li Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[defName = "ATR_SanitaryFrame"]</xpath>
-						<value><recipeMaker><researchPrerequisite>ATR_MechanicalFrameworks</researchPrerequisite></recipeMaker></value></li>
 					
 					<!-- Move new frames to correct unlock projects. -->
 					<!-- ATR_AlignmentFrame -->
