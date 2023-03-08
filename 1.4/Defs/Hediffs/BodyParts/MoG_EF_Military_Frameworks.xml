@@ -50,7 +50,7 @@
             <skillRequirements>
                 <Crafting>12</Crafting>
             </skillRequirements>
-            <researchPrerequisite>ATR_MechanicalFrameworks</researchPrerequisite>
+            <researchPrerequisite>ATR_MilitaryFrameworks</researchPrerequisite>
         </recipeMaker>
     </ThingDef>
 
