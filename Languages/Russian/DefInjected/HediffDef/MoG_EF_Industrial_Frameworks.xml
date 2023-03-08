@@ -3,20 +3,20 @@
 
   <!-- Alignment -->
 
-  <ATR_AlignmentFrame.label>Отколиброванный каркас</ATR_AlignmentFrame.label>
+  <ATR_AlignmentFrame.label>Грузовой каркас</ATR_AlignmentFrame.label>
   <ATR_AlignmentFrame.description>Первоначально разработанный для дрона "M.U.F.F.", но теперь получивший гораздо большее применение в дронах по типу "Черепах", этот каркас опзимизирует использование компонентов, связанных с основными двигательными функциями механического существа - передвижением (и перевозкой предметов первой необходимости) из пункта А в пункт Б. Этот каркас так же можно установить в Андроида, если это действительно то, чего вы хотите...</ATR_AlignmentFrame.description>
 
 
   <!-- Advanced Hydraulic -->
 
-  <ATR_AdvancedHydraulicFrame.label>Advanced Hydraulic Frame</ATR_AdvancedHydraulicFrame.label>
-  <ATR_AdvancedHydraulicFrame.description>An upgrade to the hydraulic chassis framework using exceedingly high quality components to not only maximize manageable weight and improve efficiency at basic tasks, but also to use regenerative braking inverters to assist with battery longevity. The scale of mechanical assistance provides minimal benefits that assist work capabilities across the board.</ATR_AdvancedHydraulicFrame.description>
+  <ATR_AdvancedHydraulicFrame.label>Улучшенный гидравлический каркас</ATR_AdvancedHydraulicFrame.label>
+  <ATR_AdvancedHydraulicFrame.description>Усовершенствованный гидравлический каркас с использованием компонентов исключительно высокого качества позволяет не только максимально увеличить переносимый вес, но и повысить эффективность при выполнении основных задач. Так же используется преобразователь рекуперативного торможения для увеличения срока службы аккумулятора и увеличения эффективности работы во всех направлениях.</ATR_AdvancedHydraulicFrame.description>
 
 
   <!-- Advanced Alignment -->
 
-  <ATR_AdvancedAlignmentFrame.label>Advanced Alignment Frame</ATR_AdvancedAlignmentFrame.label>
-  <ATR_AdvancedAlignmentFrame.description>An upgrade to the alignment chassis framework, this frame aligns the components associated with the primary motor function elements of a creature and includes regenerative braking inverters to assist with battery longevity. The regenerative bonuses to battery life make it advantageous for any mechanical involved in significant travel.</ATR_AdvancedAlignmentFrame.description>
+  <ATR_AdvancedAlignmentFrame.label>Улучшенный грузовой каркас</ATR_AdvancedAlignmentFrame.label>
+  <ATR_AdvancedAlignmentFrame.description>Модернизированная структура каркаса для ходовой части. Этот каркас опзимизирует компоненты, связанные с основными элементами двигательной функции существа. Он так же включает в себя инверторы рекуперативного торможения для увеличения срока службы батареи. Более эффективный расход топлива делает этот каркас наиболее подходящим для любого механического существа, участвующего в долгих перемещениях.</ATR_AdvancedAlignmentFrame.description>
 
 
 </LanguageData>
