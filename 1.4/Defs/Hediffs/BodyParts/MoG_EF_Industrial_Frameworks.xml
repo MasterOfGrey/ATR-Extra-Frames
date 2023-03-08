@@ -72,7 +72,7 @@
         </stages>
     </HediffDef>
 
-    <ThingDef ParentName="ATR_BodyPartFrameworkBase">
+    <ThingDef ParentName="ATR_BodyPartAdvancedFrameworkBase">
         <defName>ATR_AdvancedHydraulicFrame</defName>
         <label>Advanced Hydraulic Frame</label>
         <description>An upgrade to the hydraulic chassis framework using exceedingly high quality components to not only maximize manageable weight and improve efficiency at basic tasks, but also to use regenerative braking inverters to assist with battery longevity. The scale of mechanical assistance provides minimal benefits to work capabilities across the board.</description>
@@ -92,7 +92,7 @@
         </recipeMaker>
     </ThingDef>
 
-    <RecipeDef ParentName="ATR_SurgeryFramework">
+    <RecipeDef ParentName="ATR_SurgeryAdvancedFramework">
 		<defName>ATR_Install_AdvancedHydraulicFrame</defName>
 		<label>Install Advanced Hydraulic Frame</label>
 		<description>Replaces the chassis frame of this unit with an advanced hydraulic frame, greatly enhancing weight capacity, general labor efficiency, and reducing battery drain.</description>
@@ -130,7 +130,7 @@
         </stages>
     </HediffDef>
 
-    <ThingDef ParentName="ATR_BodyPartFrameworkBase">
+    <ThingDef ParentName="ATR_BodyPartAdvancedFrameworkBase">
         <defName>ATR_AdvancedAlignmentFrame</defName>
         <label>Advanced Alignment Frame</label>
         <description>An upgrade to the alignment chassis framework, this frame aligns the components associated with the primary motor function elements of a creature and includes regenerative braking inverters to assist with battery longevity. The regenerative bonuses to battery life make it advantageous for any mechanical involved in significant travel.</description>
@@ -150,7 +150,7 @@
         </recipeMaker>
     </ThingDef>
 	
-    <RecipeDef ParentName="ATR_SurgeryFramework">
+    <RecipeDef ParentName="ATR_SurgeryAdvancedFramework">
 		<defName>ATR_Install_AdvancedAlignmentFrame</defName>
 		<label>Install Advanced Alignment Frame</label>
 		<description>Replaces the chassis frame of this unit with an advanced alignment frame, greatly enhancing the unit's endurance and carrying utility.</description>

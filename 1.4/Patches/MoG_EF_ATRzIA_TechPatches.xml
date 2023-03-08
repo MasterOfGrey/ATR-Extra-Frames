@@ -26,6 +26,10 @@
 							<researchViewY>0.75</researchViewY>
 						</ResearchProjectDef>
 					</value></li>
+				<!-- Put Composite Plating in appropriate tech. -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "ATR_CompositePlating"]</xpath>
+					<value><recipeMaker><researchPrerequisite>ATR_MilitaryFrameworks</researchPrerequisite></recipeMaker></value></li>
 				
 				<!-- ATR_MilitaryBiomimetics -->
 				<li Class="PatchOperationReplace">
@@ -75,9 +79,7 @@
 					<li Class="PatchOperationAdd">
 						<xpath>Defs/ThingDef[defName = "ATR_SanitaryFrame"]</xpath>
 						<value><recipeMaker><researchPrerequisite>ATR_MechanicalFrameworks</researchPrerequisite></recipeMaker></value></li>
-					<li Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[defName = "ATR_CompositePlating"]</xpath>
-						<value><recipeMaker><researchPrerequisite>ATR_MilitaryFrameworks</researchPrerequisite></recipeMaker></value></li>
+					
 					<!-- Move new frames to correct unlock projects. -->
 					<!-- ATR_AlignmentFrame -->
 					<li Class="PatchOperationAdd">
