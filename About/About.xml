@@ -21,7 +21,7 @@ I am happy to add other unique frames if people want them.</description>
 		<li>1.4</li>
 	</supportedVersions>
 	<packageId>MasterOfGrey.ExtraFramesATR</packageId>
-	<url>https://github.com/MasterOfGrey/ATR-Extra-Frames</url>
+	<url>https://github.com/MasterOfGrey/ATR-Extra-Frames/releases/latest</url>
 	<modDependencies>
         <li>
             <packageId>Killathon.AndroidTiersReforged</packageId>
@@ -33,6 +33,7 @@ I am happy to add other unique frames if people want them.</description>
     <loadAfter>
         <li>Killathon.AndroidTiersReforged</li><!-- Dependency -->
 		<li>MasterOfGrey.IndustrialAutomatonsATR</li><!-- Designed load order. -->
+		<li>MasterOfGrey.MUFFReforgedATR</li><!-- Designed load order. -->
 		<li>Ludeon.RimWorld</li><!-- Just making extra sure... -->
 		<li>Ludeon.RimWorld.Royalty</li><!-- Just making extra sure... -->
 		<li>Ludeon.RimWorld.Ideology</li><!-- Just making extra sure... -->
