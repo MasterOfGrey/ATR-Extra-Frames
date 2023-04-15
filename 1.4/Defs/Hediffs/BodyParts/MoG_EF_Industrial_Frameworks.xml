@@ -2,6 +2,23 @@
 <Defs>
 
 <!-- Industrial Frames -->
+    <!-- Hydraulic -->
+    <!-- Only the Hediff is changed from base ATR -->
+    <HediffDef ParentName="ATR_AddedBodyPartFrameworkBase">
+        <defName>ATR_HydraulicFrame</defName>
+        <label>Hydraulic Frame</label>
+        <description>A chassis framework designed to maximize the amount of weight the frame can safely handle for short and long term needs. The redesigned frame also allows for greatly enhanced general labor speed.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <CarryingCapacity>80</CarryingCapacity>
+                    <EF_CaravanCapacity>80</EF_CaravanCapacity>
+					<GeneralLaborSpeed>1</GeneralLaborSpeed>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+    
     <!-- Alignment -->
     <HediffDef ParentName="ATR_AddedBodyPartFrameworkBase">
         <defName>ATR_AlignmentFrame</defName>
@@ -11,6 +28,7 @@
 			<li>
 				<statOffsets>
 					<CarryingCapacity>90</CarryingCapacity>
+                    <EF_CaravanCapacity>90</EF_CaravanCapacity>
 					<MoveSpeed>1.6</MoveSpeed>
 				</statOffsets>
 			</li>
@@ -63,6 +81,7 @@
             <li>
                 <statOffsets>
 					<CarryingCapacity>120</CarryingCapacity>
+                    <EF_CaravanCapacity>120</EF_CaravanCapacity>
                     <GeneralLaborSpeed>1.4</GeneralLaborSpeed>
                     <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
                     <MoveSpeed>0.1</MoveSpeed>
@@ -123,6 +142,7 @@
             <li>
                 <statOffsets>
                     <CarryingCapacity>150</CarryingCapacity>
+                    <EF_CaravanCapacity>150</EF_CaravanCapacity>
                     <MoveSpeed>1.8</MoveSpeed>
                 </statOffsets>
                 <hungerRateFactor>0.8</hungerRateFactor>

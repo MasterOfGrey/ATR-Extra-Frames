@@ -80,6 +80,71 @@
         <addsHediff>ATR_ThermalPumpedFrame</addsHediff>
     </RecipeDef>
 
+	<!-- Martial Frame -->
+
+	<HediffDef ParentName="ATR_AddedBodyPartFrameworkBase">
+		<defName>ATR_MartialFrame</defName>
+		<label>Martial Frame</label>
+		<description>A combat-rated plasteel chassis frame designed to act as a purely military upgrade to the Mobility frame. It is, in all martial respects, a directly superior framework for combat purposes. However, achieving the same performance with the additional protection requires a subtle perversion of form which gives the bearer an uncanny demeanor.</description>
+		<stages>
+			<li>
+				<statOffsets>
+					<PawnBeauty>-0.5</PawnBeauty>
+					<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+					<MoveSpeed>1.5</MoveSpeed>
+					<MeleeDodgeChance>10</MeleeDodgeChance>
+				</statOffsets>
+				<statFactors>
+					<SocialImpact>0.8</SocialImpact>
+					<MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
+					<IncomingDamageFactor>0.95</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThingDef ParentName="ATR_BodyPartFrameworkBase">
+		<defName>ATR_MartialFrame</defName>
+		<label>Martial Frame</label>
+		<description>A combat-rated plasteel chassis frame designed to act as a purely military upgrade to the Mobility frame. It is, in all martial respects, a directly superior framework for combat purposes. However, achieving the same performance with the additional protection requires a subtle perversion of form which gives the bearer an uncanny demeanor.</description>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+		</statBases>
+		<costList>
+			<Plasteel>70</Plasteel>
+			<ComponentSpacer>8</ComponentSpacer>
+			<ATR_MechSwarm>4</ATR_MechSwarm>
+			<Luciferium>1</Luciferium>
+		</costList>
+	</ThingDef>
+
+	<RecipeDef ParentName="ATR_SurgeryFramework">
+		<defName>ATR_Install_MartialFrame</defName>
+		<label>Install Martial Frame</label>
+		<description>Replaces the chassis frame of this unit with a mobility enhanced, tempered plasteel-infused frame, enhancing both melee capability and combat survivability.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ATR_MartialFrame</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		<thingDefs>
+			<li>ATR_MartialFrame</li>
+		</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>ATR_M7Mech</li>
+			<!--<li>ATR_M8Mech</li>-->
+		</recipeUsers>
+		<addsHediff>ATR_MartialFrame</addsHediff>
+	</RecipeDef>
+
 <!-- Advanced Military Frames -->
 
 

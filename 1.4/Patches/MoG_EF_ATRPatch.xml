@@ -10,14 +10,7 @@
 			<operations>
 			<!-- Fix the Frames that were made to be complete nonsense. -->
 				<!-- ATR_HydraulicFrame -->
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/HediffDef[defName = "ATR_HydraulicFrame"]/stages/li/statOffsets</xpath>
-					<value><statOffsets>
-						<CarryingCapacity>80</CarryingCapacity>
-						<GeneralLaborSpeed>1</GeneralLaborSpeed>
-					</statOffsets></value></li>
-				<li Class="PatchOperationRemove">
-					<xpath>Defs/HediffDef[defName = "ATR_HydraulicFrame"]/stages/li/statFactors/CarryingCapacity</xpath></li>
+					<!-- Hediff now fully replaced -->
 				<!-- ATR_RefinedFrame -->
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/HediffDef[defName = "ATR_RefinedFrame"]/stages/li/statOffsets</xpath>
