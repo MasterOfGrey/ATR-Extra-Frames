@@ -14,6 +14,8 @@ Where there is room for more niche items not suitable to the design philosophy o
 ## Features
 This mod reworks a few existing frames for engineering consistency, tweaks the tech tree and unlock points, and adds a variety of extras.
 
+Also includes code to ensure that the carrying capacity improvements from framework upgrades are applied to weight limits for all purposes including caravans.
+
 ### Altered Frames:
 * Hydraulic (fixed carrying capacity bonus due to limitations of hydraulic actuators)
 * Refined (increased pawn beauty and flat social impact buff from looking nice)
@@ -22,8 +24,10 @@ This mod reworks a few existing frames for engineering consistency, tweaks the t
 ### Added Frames:
 * Alignment Frame (hauling frame ideal for trainable mechanical animals)
 * Thermal Pumped Frame (combat oriented upgrade to the Guardian Frame)
+* Martial Frame (combat durability enhanced upgrade to the Mobility Frame)
 * Advanced Alignment Frame (improved from above but spacer tech and much more expensive)
 * Advanced Hydraulic Frame (as above; same scope of improvements and tech/cost changes)
+* Noble Frame (more refined version of the Refined Frame with a focus on enhancing Nobility)
 
 I am happy to add other unique frames if people want them.
 
