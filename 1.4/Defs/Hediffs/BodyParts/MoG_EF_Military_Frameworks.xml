@@ -73,10 +73,6 @@
             <li>ATR_ThermalPumpedFrame</li>
         </thingDefs>
         </fixedIngredientFilter>
-        <recipeUsers>
-            <li>ATR_M7Mech</li>
-            <!--<li>ATR_M8Mech</li>-->
-        </recipeUsers>
         <addsHediff>ATR_ThermalPumpedFrame</addsHediff>
     </RecipeDef>
 
@@ -138,10 +134,6 @@
 			<li>ATR_MartialFrame</li>
 		</thingDefs>
 		</fixedIngredientFilter>
-		<recipeUsers>
-			<li>ATR_M7Mech</li>
-			<!--<li>ATR_M8Mech</li>-->
-		</recipeUsers>
 		<addsHediff>ATR_MartialFrame</addsHediff>
 	</RecipeDef>
 
