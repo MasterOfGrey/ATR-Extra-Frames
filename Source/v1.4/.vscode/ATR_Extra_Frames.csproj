@@ -3,6 +3,7 @@
 		<OutputType>Library</OutputType>
 		<TargetFramework>net480</TargetFramework>
 		<PlatformTarget>x64</PlatformTarget>
+		<LangVersion>latest</LangVersion>
 
 		<!-- Modify [RootNamespace], [AssemblyName], [OutputPath], [VersionPrefix] -->
 		<RootNamespace>ATR_Extra_Frames</RootNamespace>
