@@ -54,6 +54,9 @@ As above, if you would like to provide a localisation, I'll happily add it in.
 
 ## Contributors
 * Russian language translation provided by Tkhakiro
+All translations are provided by the community in a voluntary capacity - I don't do them myself.
+Translations are not guaranteed to be up-to-date or to have errors fixed promptly.
+Submit a pull request to submit a translation to your own language.
 
 ## Links
 I hang out in the discord for the main Android Tiers Reforged mod:

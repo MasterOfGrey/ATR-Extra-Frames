@@ -8,6 +8,15 @@
 		},
 		{
 			"path": "../../../1.4/Patches"
+		},
+		{
+			"path": "../../../About"
+		},
+		{
+			"path": "../../../.github"
+		},
+		{
+			"path": "../../../Languages"
 		}
 	]
 }
